@@ -1,2 +1,3 @@
 include README.md
 include felis_python2/lectures/*.ipynb
+include felis_python2/lectures/images
