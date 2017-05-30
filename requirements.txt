@@ -1,0 +1,5 @@
+jupyter
+numpy>=1.6
+scipy=0.16
+pandas>=0.14
+sympy
