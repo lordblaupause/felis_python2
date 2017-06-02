@@ -9,7 +9,7 @@ errors. In case the dependencies shall be installed, this module can be installe
 setuptools.
 
 ```bash
-~$ git clone https://github.com/lordblaupause/felis_python2.git
+~$ git clone https://github.com/mmaelicke/felis_python2.git
 ~$ cd felis_python2
 ~$ pip install -r requirements.txt
 ~$ cd lectures
