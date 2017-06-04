@@ -7,19 +7,9 @@ with open('VERSION.txt') as fs:
 with open('requirements.txt') as fs:
     REQUIREMENTS = fs.read().strip().split('\n')
 
-# compile the rst Version of README.md. rst used on PyPI, md on Github
-try:
-    out = subprocess.call(['pandoc', '--from=markdown', '--to=rst', '--output=README.rst', 'README.md'])
-    if out > 0:
-        raise FileNotFoundError
-    readme_path = 'README.rst'
-except FileNotFoundError:
-    print('pandoc not found, using Markdown for README.')
-    readme_path = 'README.md'
-
 
 def readme():
-    with open(readme_path) as fs:
+    with open('README.rst') as fs:
         return fs.read()
 
 setup(name='felis_python2',
