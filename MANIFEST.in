@@ -1,5 +1,6 @@
 include README.rst
 include felis_python2/lectures/*.ipynb
+include felis_python2/lectures/data/*
 include felis_python2/lectures/images/*
 include requirements.txt
 include VERSION.txt
